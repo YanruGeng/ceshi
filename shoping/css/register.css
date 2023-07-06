@@ -1,0 +1,122 @@
+.regi-hd {
+    border-bottom: 2px solid #b1191a;
+    margin: 10px 0 20px 0;
+}
+
+.regi-nav .regi-dropdown {
+    height: 42px;
+    background-color: #ececec;
+    border: 1px solid #dddddd;
+}
+
+.regi-nav .regi-dropdown dt {
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: normal;
+    line-height: 42px;
+}
+
+.regi-nav .regi-dropdown dd {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: normal;
+    line-height: 42px;
+}
+
+/* 注册栏 */
+.registerarea {
+    height: 480px;
+    background-color: transparent;
+    border: 1px solid #dddddd;
+}
+
+.registerarea .regi-form {
+    width: 730px;
+    height: 425px;
+    background-color: pink;
+    margin: 55px auto 0;
+}
+
+.registerarea .regi-form li {
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.registerarea .regi-form label {
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.registerarea .regi-form .quyu {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #dddddd;
+}
+
+.registerarea .regi-form span {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #333;
+}
+
+.error {
+    color: #40b83f;
+}
+
+.registerarea .regi-form span i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../upload/对勾1.png) no-repeat;
+}
+
+.registerarea .regi-form .anquan {
+    width: 490px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.registerarea .regi-form .anquan i {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.registerarea .regi-form .anquan .regi-red {
+    background-color: #df3033;
+}
+
+.registerarea .regi-form .anquan .regi-green {
+    background-color: #40b83f;
+}
+
+.registerarea .regi-form .anquan .regi-organe {
+    background-color: #f79100;
+}
+
+
+.registerarea .regi-form li span p {
+    display: inline-block;
+    margin-left: 10px;
+    color: #4fafe9;
+}
+
+.teshu {
+    padding: 40px 0 0 0;
+}
+
+.zhuce {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 70px;
+    background-color: #df3033;
+    margin: 50px auto;
+}

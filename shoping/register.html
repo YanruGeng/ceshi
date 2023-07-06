@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 三大标题 -->
+    <!-- 标题 -->
+    <title>个人注册</title>
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入我们公共的样式文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入我们index的样式文件 -->
+    <link rel="stylesheet" href="css/register.css">
+    <style>
+        /* 字体声明 */
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?t49t8z');
+            src: url('fonts/icomoon.eot?t49t8z#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?t49t8z') format('truetype'),
+                url('fonts/icomoon.woff?t49t8z') format('woff'),
+                url('fonts/icomoon.svg?t49t8z#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header 头部模块 start -->
+    <header class="w header">
+        <div class="header1">
+            <!-- index.html——返回首页 -->
+            <h1><a href="index.html" title="注册页">品优购商城</a>
+                <div class="regi-hd w"></div>
+            </h1>
+        </div>
+    </header>
+
+    <!-- header 头部模块 end -->
+
+
+    <!-- 导航栏 start -->
+    <div class="regi-nav">
+        <section class="w regi-dropdown">
+            <dt>注册新用户</dt>
+            <dd>
+                <li><a href="#">我有账号,去<i class="style_red">登录</i></a></li>
+            </dd>
+        </section>
+    </div>
+    <!-- 导航栏 end -->
+
+
+
+    <!-- 注册页面 start -->
+    <div class="registerarea w">
+        <div class="regi-form">
+            <!-- 表单域元素 用于提交相关信息 -->
+            <form action="">
+                <ul>
+                    <li><label for="">手机号：</label><input type="text" class="quyu">
+                        <span class="error"><i></i>&nbsp;手机号码格式不正确，请从新输入</span>
+                    </li>
+                    <li><label for="">短信验证码：</label><input type="text" class="quyu">
+                        <span class="error"></span>
+                    </li>
+                    <li><label for="">登陆密码：</label><input type="text" class="quyu">
+                        <span class="error"><i></i>&nbsp;密码不少于6位数，请从新输入</span>
+                    </li>
+                    <div class="anquan">
+                        <i>安全程度</i>
+                        <i class="regi-red">弱</i>
+                        <i class="regi-green">中</i>
+                        <i class="regi-organe">强</i>
+                    </div>
+                    <li><label for="">确认密码：</label><input type="text" class="quyu">
+                        <span class="error"><i></i>&nbsp;密码不一致，请从新输入</span>
+                    </li>
+                    <li><label for=""></label>
+                        <input type="checkbox">
+                        <span class="teshu">同意协议并注册<p>《知果果用户协议》</p></span>
+
+                    </li>
+                </ul>
+            </form>
+            <input type="submit" value="完成注册" class="zhuce">
+        </div>
+    </div>
+
+
+
+    <!-- 注册页面 end -->
+
+
+
+    <!-- 底部模块的制作 footer start -->
+    <footer>
+        <div class="footer w">
+            <section class="footer3">
+                <span class="span1">
+                    <ul>
+                        <li><a href="#">关于我们</a></li>
+                        <li></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li></li>
+                        <li><a href="#">联系客服</a></li>
+                        <li></li>
+                        <li><a href="#">商家入驻</a></li>
+                        <li></li>
+                        <li><a href="#">营销中心</a></li>
+                        <li></li>
+                        <li><a href="#">手机品优购</a></li>
+                        <li></li>
+                        <li><a href="#">友情链接</a></li>
+                        <li></li>
+                        <li><a href="#">销售联盟</a></li>
+                        <li></li>
+                        <li><a href="#">品优购社区</a></li>
+                        <li></li>
+                        <li><a href="#">品优购公益</a></li>
+                        <li></li>
+                        <li><a href="#">English Site</a></li>
+                        <li></li>
+                        <li><a href="#">Contact U</a></li>
+
+                    </ul>
+                </span>
+                <span class="span2"> 地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱:
+                    zhanghj+itcast.cn
+                </span>
+                <span class="span3">京ICP备08001421号京公网安备110108007702 </span>
+            </section>
+        </div>
+    </footer>
+    <!-- 底部模块的制作 footer end -->
+
+</body>
+
+</html>

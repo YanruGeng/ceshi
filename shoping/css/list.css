@@ -1,0 +1,89 @@
+/* 导航栏左侧 */
+.list-drop {
+    float: left;
+}
+
+.list-drop li {
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+}
+
+.list-drop li a {
+    font-size: 16px;
+    padding: 0 28px;
+    color: #333;
+}
+
+
+/* 导航栏右侧 */
+.list-nav {
+    float: right;
+
+}
+
+.list-nav li {
+    display: inline-block;
+    height: 45px;
+    line-height: 47px;
+
+}
+
+.list-nav li a {
+    font-family: 'icomoon';
+    font-size: 14px;
+    padding: 0 22px;
+    color: #666666;
+}
+
+.list-nav li .style_red {
+    color: #c81523;
+}
+
+.art-nav {
+    position: relative;
+    height: 120px;
+    background: url(../upload/背景banner.png) no-repeat;
+}
+
+.art-nav a {
+    display: block;
+}
+
+.art-nav a i {
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    margin: 25px 550px 0;
+    background: url(../upload/女鞋.png) no-repeat;
+}
+
+.art-nav a p {
+    position: absolute;
+    font-size: 16px;
+    width: 500px;
+    height: 29px;
+    text-align: center;
+    margin: 80px 350px 0;
+}
+
+.art-art {
+    height: 1500px;
+}
+
+.art-art1 {
+    float: left;
+    width: 290px;
+    height: 458px;
+    margin: 5px 12px 0 0;
+    background: url(../upload/单品1拷贝.png) no-repeat;
+    border: 1px solid transparent;
+}
+
+.art-art1:hover {
+    border: 1px solid #c81523;
+}
+
+.art-art div:nth-child(4n) {
+    margin: 5px 0 0 0;
+}

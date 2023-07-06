@@ -1,0 +1,468 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+
+/* 快捷导航左 */
+.shortcut>.w>.fl {
+    float: left;
+    width: 210px;
+    line-height: 31px;
+    /* background-color: orange; */
+}
+
+.shortcut .w .fl li {
+    display: inline-block;
+}
+
+.shortcut .w .fl li a {
+    display: inline-block;
+    padding-right: 12px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.shortcut .w .fl li .style_red {
+    color: #c40000;
+}
+
+.style_red {
+    color: #c40000;
+}
+
+/* 快捷导航右 */
+.shortcut>.w>.fr {
+    float: right;
+    width: 637px;
+    line-height: 31px;
+}
+
+.shortcut .w .fr li {
+    font-family: 'icomoon';
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+}
+
+.shortcut .w .fr li:nth-child(even) {
+    margin: 9px 12px 0 12px;
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+
+}
+
+/* 搜索栏  start*/
+.header {
+    position: relative;
+    height: 106px;
+    /* background-color: ; */
+}
+
+/* 搜索栏1 */
+.header .header1 {
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    top: 27px;
+    background-color: #fff;
+
+}
+
+.header .header1 a {
+    display: block;
+    width: 219px;
+    height: 55px;
+    color: #666;
+    background: url(../images/icons.png) no-repeat -368px -12px;
+    /* font-size:0;京东的做法 */
+    /* 淘宝的做法如下 */
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+
+/* 搜索栏2 */
+.header .header2 {
+    position: absolute;
+    width: 538px;
+    height: 37px;
+    top: 27px;
+    left: 347px;
+    border: 2px solid #c40000;
+    /* background-color: #fff; */
+}
+
+.header .header2 input {
+    float: left;
+    width: 454px;
+    height: 33px;
+    border: 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+.header .header2 .button {
+    float: left;
+    width: 80px;
+    height: 33px;
+    background-color: #c40000;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    border: 0;
+}
+
+.header .hotwords {
+    position: absolute;
+    display: block;
+    top: 64px;
+    left: 347px;
+    width: 538px;
+    height: 22px;
+    /* background-color: #74de5f; */
+}
+
+.header .hotwords ul li a {
+    float: left;
+    font-size: 12px;
+    margin: 7px 12px 0 12px;
+}
+
+.header .hotwords ul li a:hover {
+    color: #c81623;
+}
+
+/* 搜索栏3 */
+.header .shopcar {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    top: 27px;
+    left: 996px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+
+}
+
+.header .shopcar a {
+    position: relative;
+    font-family: 'icomoon';
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    color: #666;
+}
+
+.header .shopcar a section {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 20px;
+    height: 15px;
+    /* margin: 11px 0 0 17px; */
+    background: url(../images/icons.png) no-repeat -416px -88px;
+    /* background-color: #d91616; */
+}
+
+.header .shopcar i {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 16px;
+    font-size: 12px;
+    color: #fefefe;
+    background-color: #c81623;
+    padding: 0 6px;
+    border-radius: 8px 8px 8px 0;
+}
+
+/* 搜索栏 end*/
+
+/* nav start */
+nav {
+    height: 45px;
+    border-bottom: 2px solid #c81623;
+}
+
+/* 导航栏左 */
+nav .dropdown {
+    position: relative;
+    float: left;
+    width: 209px;
+    background-color: #fff;
+}
+
+nav .dropdown dt a {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 43px;
+    background-color: #b1191a;
+}
+
+nav .dropdown dt a:hover dd {
+    display: none;
+}
+
+nav .dropdown dd {
+    position: absolute;
+    /* display: none; */
+    top: 45px;
+    left: 0;
+    width: 209px;
+    height: 465px;
+    border-left: 2px solid #c81623;
+}
+
+nav .dropdown dd a {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 31px;
+    background-color: #c81623;
+}
+
+nav .dropdown dd a:hover {
+    background-color: #fff;
+    color: #c81623;
+}
+
+nav .dropdown dd a::after {
+    position: absolute;
+    content: '\e90c';
+    font-family: 'icomoon';
+    right: 10px;
+    top: 0;
+    width: 12px;
+    /* background-color: #fff; */
+}
+
+/* 导航栏右 */
+nav .navitems {
+    float: left;
+    margin-left: 18px;
+    /* width: 720px; */
+    /* background-color: #352c2c; */
+}
+
+nav .navitems a {
+    display: inline-block;
+    font-size: 16px;
+    color: #070707;
+    text-align: center;
+    line-height: 43px;
+    padding: 0 22px;
+}
+
+nav .navitems a:hover {
+    color: red;
+}
+
+/* 底部模块制作 footer start */
+footer {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+.footer {
+    height: 417px;
+}
+
+
+/* 第一栏 */
+.footer .footer1 {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .footer1 .footer11 {
+    position: relative;
+    display: inline-block;
+    padding: 38px 0 0 90px;
+    /* background-color: #fff; */
+}
+
+.footer .footer1 .footer11::before {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 35px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) -253px -3px;
+    /* background-color: #333; */
+}
+
+.footer .footer1 h3 {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer .footer1 li {
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .footer1 .tt {
+    position: relative;
+    display: inline-block;
+    padding: 38px 0 0 140px;
+    /* background-color: #fafafa; */
+}
+
+.footer .footer1 .footer12::before {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 85px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) -254px -54px;
+    /* background-color: #333; */
+}
+
+.footer .footer1 .footer13::before {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 85px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) -257px -106px;
+    /* background-color: #333; */
+}
+
+.footer .footer1 .footer14::before {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 85px;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) -257px -157px;
+    /* background-color: #333; */
+}
+
+.footer .footer1 .footer15::before {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 85px;
+    width: 52px;
+    height: 50px;
+    background: url(../images/icons.png) -255px -209px;
+    /* background-color: #333; */
+}
+
+
+/* 第二栏 */
+.footer .footer2 {
+    height: 190px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .footer2 ul {
+    float: left;
+    width: 190px;
+    height: 190px;
+    /* background-color: #fff; */
+}
+
+.footer .footer2 .ul1 {
+    margin-left: 50px;
+}
+
+.footer .footer2 h3 {
+    margin: 20px 0 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer .footer2 li {
+    margin: 4px 0;
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .footer2 .ul6 {
+    position: relative;
+    margin-left: 35px;
+    width: 155px;
+}
+
+.footer .footer2 .ul6::before {
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: -15px;
+    width: 90px;
+    height: 90px;
+    background: url(../images/wx_cz.jpg) no-repeat
+}
+
+/* 第三栏 */
+.footer .footer3 {
+    height: 117px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .footer3 li {
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .footer3 li a {
+    line-height: 12px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .footer3 li a:hover {
+    color: #fff;
+}
+
+.footer .footer3 ul li:nth-child(even) {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: -2px 10px;
+    background-color: #666666;
+}
+
+.footer .footer3 span {
+    display: block;
+    text-align: center;
+}
+
+.footer .footer3 .span1 {
+    margin-top: 20px;
+}
+
+.footer .footer3 .span2 {
+    margin-top: 15px;
+}
+
+.footer .footer3 .span3 {
+    margin-top: 10px;
+}
+
+/* 底部模块制作 footer end */
